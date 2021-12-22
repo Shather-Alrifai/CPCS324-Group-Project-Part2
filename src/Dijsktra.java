@@ -43,7 +43,7 @@ public class Dijsktra {
         int source = 0;
         // ---------------------------------------------------------------------
         Scanner in = new Scanner(System.in);
-        System.out.println("------------------- WELCOME TO FLOYD-WARSHALL ALGORITHM SOLVER -------------------");
+        System.out.println("------------------- WELCOME TO Dijkstra ALGORITHM SOLVER -------------------");
         System.out.println(">>Test  cases : (where N is the number of vertices "
                 + "and E is the number of edges: ");
         System.out.println(" 1:  N=10 ,  M=16");
