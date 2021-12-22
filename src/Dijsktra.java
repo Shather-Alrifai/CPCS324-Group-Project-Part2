@@ -141,7 +141,7 @@ public class Dijsktra {
 
         }
         // printing final distances
-        System.out.println("\nShortest distances from " + verts[source] + " to all other cities are:");
+        System.out.println("\nShortest distances from " + verts[source] + " to all other verts are:");
         for (int i = 0; i < distance.length; i++) {
             if (!verts[source].equals(verts[i])) {
                 System.out.println(String.format("Distance from %-6s to %-7s is %-4d ", verts[source], verts[i], distance[i]));
